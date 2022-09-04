@@ -78,4 +78,7 @@ p {
     padding: 0px;
     text-align: center;
   }
+  .hero {
+    padding: 80px 20px;
+  }
 }
