@@ -12,10 +12,6 @@ nav {
   background: var(--secondary-color);
 }
 
-.navbar-nav .nav-link.active {
-  color: var(--first-color);
-}
-
 h1,
 h2,
 h3,
@@ -39,6 +35,10 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+.navbar-nav .nav-link.active {
+  color: var(--first-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -73,6 +73,21 @@ p {
 .project-discription {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 83px;
+}
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  line-height: 27px;
+}
+.about-section-content {
+  margin: 10px 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -87,5 +102,9 @@ p {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about-section {
+    padding: 0px;
+    text-align: center;
   }
 }
