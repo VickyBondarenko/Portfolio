@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content=" About Vicky Bondarenko - front-end developer from Ukraine, based in Poland">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -18,13 +19,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
         rel="stylesheet">
-    <title>About Vicky Bondarenko</title>
+    <title>About front-end developer - Vicky Bondarenko</title>
 </head>
+
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="/">Vicky Bondarenko</a>
+            <a class="navbar-brand" href="/" title="Home page">Vicky Bondarenko</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,16 +34,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                        <a class="nav-link " aria-current="page" href="/" title="Home page">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a>
+                        <a class="nav-link active" href="about.html" title="About page">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="work.html">Work</a>
+                        <a class="nav-link" href="work.html" title="Work page">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="contact.html" title="Contact page">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -52,22 +54,48 @@
             <div class="col-lg-6">
                 <div class="content">
 
-                    <h1 class="mb-4">Hi I am Vicky Bondarenko</h1>
-                    <h2 class="mb-4">Frontend Developer, based in Poland.</h2>
+                    <h1 class="mb-4">Hi, I am Vicky Bondarenko</h1>
+                    <h2 class="mb-4">Front-end developer, based in Poland.</h2>
                     <p class="mb-5 text-muted">
                         For anyone who wants to start learning code, this workshop is very interesting. You will be
                         challenged with
                         different
                         exercises, and everything is well explained, homework and deadlines are good for keep focus
                     </p>
-                    <a href="#" class="btn btn-branding">Wiew all project</a>
+                    <a href="/work.html" class="btn btn-branding">Wiew all project</a>
                 </div>
             </div>
-
             <div class="col-lg-6">
-                <img src="images/foto.png" class="img-fluid" alt="">
+                <img src="images/foto.png" class="img-fluid" id="fotoVicky" alt="">
             </div>
         </div>
+        <footer>
+            <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                <div>
+                    <h4>Work Inquiry</h4>
+                    <p class="text-muted">Let’s work together</p>
+                </div>
+                <div>
+                    <a href="/contact.html" class=" btn btn-branding" title="Contact Vicky">Contact me</a>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5 mb-4">
+                <a href="mailto:quikyv@gmail.com" class="email-link" title="Email Vicky">quikyv@gmail.com</a>
+            </div>
+            <div class="sosial-links d-flex justify-content-center">
+                <a href="https://www.linkedin.com/in/viktoriia-bondarenko-00490919b/" target="_blank"
+                    title="linkedin profile"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/VickyBondarenko" target="_blank" title="github profile"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/bondarenko.viktoriya.96" target="_blank" title="facebook profile"> <i
+                        class="fa-brands fa-facebook"></i></a>
+            </div>
+            <p class="text-center mt-3">
+                This project was coded by Vicky Bondarenko, and it is <a
+                    href="https://github.com/VickyBondarenko/Portfolio" target="_blank"
+                    title="github sourc">open-sourced</a>
+            </p>
+        </footer>
     </div>
 </body>
 
