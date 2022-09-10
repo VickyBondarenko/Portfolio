@@ -35,7 +35,8 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-.navbar-nav .nav-link.active {
+.navbar-nav .nav-link.active,
+a.nav-link:hover {
   color: var(--first-color);
 }
 
