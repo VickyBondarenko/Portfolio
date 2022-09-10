@@ -139,10 +139,16 @@ footer .sosial-links a:hover {
 #fotoVicky {
   margin: 0 0 0 70px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
     line-height: 2;
+  }
+  .content h1 {
+    font-size: 36px;
+    padding: 70px 0 0 0;
+    line-height: 50px;
   }
   h2 {
     font-size: 44px;
@@ -157,5 +163,8 @@ footer .sosial-links a:hover {
   .content-conteiner {
     padding: 0px;
     text-align: center;
+  }
+  #fotoVicky {
+    margin: 0;
   }
 }
