@@ -136,6 +136,9 @@ footer .sosial-links a:hover {
   color: white;
   background: var(--first-color);
 }
+.SheCodes-link {
+  color: var(--first-color);
+}
 #fotoVicky {
   margin: 0 0 0 70px;
 }
